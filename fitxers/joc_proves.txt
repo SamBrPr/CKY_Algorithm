@@ -1,0 +1,114 @@
+new_gram
+gram_1 
+a T
+b T
+aaaa T
+aaab T
+aabb T
+ab F
+ba F
+aa F
+bb F
+end 
+
+new_gram
+gram_2
+ab T
+bb T
+aabb T
+abab T
+bbab T
+a F
+ba F
+aa F
+aba F
+bab F
+end
+
+new_gram
+gram_CNF
+ab T
+a F
+b F
+aa F
+bb F
+end
+
+new_gram
+gram_det
+a T
+b T
+aaaa T
+aaab T
+aaba T
+ab F
+ba F
+aa F
+abb F
+bbb F
+end
+
+new_gram
+gram_prob
+a T
+b T
+aaaa T
+aaab T
+aabb T
+ab F
+ba F
+aa F
+bb F
+aba F
+end
+
+new_gram
+gram_CFG
+abc T
+b T
+a F
+ab F
+acb F
+aabc F
+bc F
+end
+
+new_gram
+gram_CFG_2
+abc T
+b T
+abcb T
+babc T
+abcabc T
+a F
+ab F
+acb F
+aabc F
+bc F
+end
+
+
+new_gram
+gram_CFG_epsilon
+ab T
+b T
+"" T
+a F
+aa F
+bb F
+ba F
+end
+
+new_gram
+gram_CFG_mix_t
+ab T
+bb T
+b T
+a F
+ba F
+"" F
+aab F
+end
+
+
+finalitzar

@@ -1,0 +1,4 @@
+S->AB|C  
+A->a|@empty  
+B->b  
+C->@empty

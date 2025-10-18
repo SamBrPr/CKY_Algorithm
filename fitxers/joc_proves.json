@@ -1,0 +1,95 @@
+{
+  "gram_1": {
+    "a": true,
+    "b": true,
+    "aaaa": true,
+    "aaab": true,
+    "aabb": true,
+    "ab": false,
+    "ba": false,
+    "aa": false,
+    "bb": false
+  },
+  "gram_2": {
+    "ab": true,
+    "bb": true,
+    "aabb": true,
+    "abab": true,
+    "bbab": true,
+    "a": false,
+    "ba": false,
+    "aa": false,
+    "aba": false,
+    "bab": false
+  },
+  "gram_CNF": {
+    "ab": true,
+    "a": false,
+    "b": false,
+    "aa": false,
+    "bb": false
+  },
+  "gram_det": {
+    "a": true,
+    "b": true,
+    "aaaa": true,
+    "aaab": true,
+    "aaba": true,
+    "ab": false,
+    "ba": false,
+    "aa": false,
+    "abb": false,
+    "bbb": false
+  },
+  "gram_prob": {
+    "a": true,
+    "b": true,
+    "aaaa": true,
+    "aaab": true,
+    "aabb": true,
+    "ab": false,
+    "ba": false,
+    "aa": false,
+    "bb": false,
+    "aba": false
+  },
+  "gram_CFG": {
+    "abc": true,
+    "b": true,
+    "a": false,
+    "ab": false,
+    "acb": false,
+    "aabc": false,
+    "bc": false
+  },
+  "gram_CFG_2": {
+    "abc": true,
+    "b": true,
+    "abcb": true,
+    "babc": true,
+    "abcabc": true,
+    "a": false,
+    "ab": false,
+    "acb": false,
+    "aabc": false,
+    "bc": false
+  },
+  "gram_CFG_epsilon": {
+    "ab": true,
+    "b": true,
+    "": true,
+    "a": false,
+    "aa": false,
+    "bb": false,
+    "ba": false
+  },
+  "gram_CFG_mix_t": {
+    "ab": true,
+    "bb": true,
+    "b": true,
+    "a": false,
+    "ba": false,
+    "": false,
+    "aab": false
+  }
+}
