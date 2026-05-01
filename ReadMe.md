@@ -50,6 +50,7 @@ The parser builds a 2D table where each cell $(i, j)$ contains the non-terminals
     ```bash
     python A_programa_principal.py
     ```
+##Authors: Sam Brumwell & Sílvia Borràs
 3.  **Input Options**:
     * **Option 1**: Manually type a word to check against the grammar.
     * **Option 2**: Run an automated test suite from `joc_proves.json`.
